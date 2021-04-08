@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.addopportunite.Addopportunite">
+
+    <EditText
+        android:id="@+id/Id_Opportunite"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Entrez votre id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/libelle_opport"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Entrez votre libellé opportunité"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Revenu_espere"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Entrez votre Revenu espéré pour opportunité"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Probabilite"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Entrez votre Probabilite pour opportunité"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/Date_fermeture"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Entrez votre Date de fermeture pour opportunité"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/Id_client"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Entrez votre nom pour client"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_add_opport"
+        android:layout_marginTop="25dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Opportunité" />
+
+
+
+
+
+
+</LinearLayout>

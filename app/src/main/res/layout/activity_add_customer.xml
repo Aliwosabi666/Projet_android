@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".ui.addCusomer.AddCustomer">
+
+    <EditText
+        android:id="@+id/id_customer"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Enter your id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Enter your nom"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Enter your prenom"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Adresse"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Enter your adresse"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Coor_gps"
+        android:layout_width="match_parent"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Enter your Coor gps"
+        android:inputType="textPersonName" />
+
+
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="25dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Customer" />
+
+
+</LinearLayout>
