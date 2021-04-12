@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.editopportunite.EditOpportunite">
+
+    <EditText
+        android:id="@+id/Id_Opportunite"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Id"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/libelle_opport"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Libelle opportunité"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/Revenu_espere"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Revenu espéré"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/Probabilite"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Probabilite"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/Date_fermeture"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Date fermeture"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/Id_client"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Id Client"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:background="#0288D1"
+            android:id="@+id/button_edit"
+            android:layout_weight="2"
+            android:text="Edit"
+            android:layout_margin="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_margin="2dp"
+            android:background="#D32F2F"
+            android:id="@+id/button_delete"
+            android:layout_weight="2"
+            android:text="Delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

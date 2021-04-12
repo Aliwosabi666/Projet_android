@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.addopportunite.Addopportunite">
+
+    <EditText
+        android:id="@+id/Id_Opportunite"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Id"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/libelle_opport"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Libelle opportunité"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/Revenu_espere"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Revenu espéré"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/Probabilite"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Probabilite"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/Date_fermeture"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Date fermeture"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/Id_client"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        android:text="Id Client"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_add_opport"
+        android:layout_marginTop="25dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Opportunité" />
+
+</LinearLayout>
